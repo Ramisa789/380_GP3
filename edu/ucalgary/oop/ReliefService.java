@@ -55,7 +55,7 @@ public class ReliefService {
     public String getLogDetails() {
         StringBuilder builder = new StringBuilder();
         builder.append("Inquirer: ").append(inquirer.getFirstName()).append(" ").append(inquirer.getLastName());
-        builder.append(", Missing Person: ").append(missingPerson.getName());
+        builder.append(", Missing Person: ").append(missingPerson.getFirstName());
         builder.append(", Date of Inquiry: ").append(dateOfInquiry);
         builder.append(", Info Provided: ").append(infoProvided);
         builder.append(", Last Known Location: ").append(lastKnownLocation.getName());
