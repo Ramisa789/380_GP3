@@ -7,7 +7,7 @@ public class Inquirer {
     private String SERVICES_PHONE;
 
     public Inquirer(String FIRST_NAME, String LAST_NAME, String SERVICES_PHONE, String INFO) {
-        if (firstName == null || lastName == null || servicesPhone == null || info == null) {
+        if (FIRST_NAME == null || LAST_NAME == null || SERVICES_PHONE == null || INFO == null) {
             throw new IllegalArgumentException("Arguments cannot be null");
         }
         this.FIRST_NAME = FIRST_NAME;
